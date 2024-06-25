@@ -1,0 +1,87 @@
+<div style="text-align: center;">
+  <form [formGroup]="productForm" novalidate>
+    <table class="table table-bordered">
+      <thead class="thead-dark">
+        <tr>
+          <th scope="col">Sr.No</th>
+          <th scope="col">Name</th>
+          <th scope="col">Edit</th>
+          <th scope="col">delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let product of products;index as i">
+          <th scope="row">{{i+1}}</th>
+          <td>{{product.name}}</td>
+          <td><button (click)="editModeOn(i)">Edit</button></td>
+          <td><button class="mx-2" (click)="delete(i)">Delete</button></td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <input type="text" class="me-2" formControlName="name">
+    <button (click)="isEditMode?edit():add()">{{isEditMode?'Edit':'Add'}}</button>
+    <button *ngIf="isEditMode" class="mx-2" (click)="clear()">Clear</button>
+  </form>
+  <!-- <pre>{{productForm.value | json}}</pre> -->
+</div>
+<div class="container my-5">
+  <div class="text-center"> <!-- Center the button horizontally -->
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Open Table in Modal
+    </button>
+  </div>
+
+  <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Product Table</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">Sr.No</th>
+                  <th scope="col">Name</th>
+                  <th scope="col">Edit</th>
+                  <th scope="col">delete</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let product of products;index as i">
+                  <th scope="row">{{i+1}}</th>
+                  <td>{{product.name}}</td>
+                  <td><button (click)="editModeOn(i)">Edit</button></td>
+                  <td><button class="mx-2" (click)="delete(i)">Delete</button></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- <div style="text-align: center;">
+<form [formGroup]="productForm" novalidate>
+
+  <div *ngFor="let product of products;index as i">
+<p>{{product.name}}</p>
+    <button (click)="editModeOn(i)">Edit</button>
+    <button  class="mx-2" (click)="delete(i)">Delete</button>
+ 
+  </div>
+  <br>
+  <input type="text" class="me-2" formControlName="name" >
+  <button (click)="isEditMode?edit():add()">{{isEditMode?'Edit':'Add'}}</button>
+  <button *ngIf="isEditMode" class="mx-2" (click)="clear()">Clear</button>
+  </form>
+  <pre>{{productForm.value | json}}</pre>
+</div> -->

@@ -1,0 +1,52 @@
+<div class="container">
+
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <input type="text" class="form-control" placeholder="First Name" formControlName="firstname">
+    <div *ngIf="loginForm.controls.firstname.invalid && loginForm.controls.firstname.touched">
+      <span>First Name is required!</span>
+    </div>
+    <br>
+    <input type="text" class="form-control" placeholder="Last Name" formControlName="lastname">
+    <br>
+    <input type="number" class="form-control" placeholder="Age" formControlName="age">
+    <div *ngIf="loginForm.controls.age.invalid && loginForm.controls.age.touched">
+      <span>Age is required!</span>
+    </div>
+    <br>
+      <label class="form-label">Gender</label>
+      <br>
+      <input type="radio" class="form-check-input" formControlName="gender" value="male"> <label class="form-check-label">
+        Male </label><br>
+      <input type="radio" class="form-check-input" formControlName="gender" value="female"> <label
+        class="form-check-label">Female</label>
+      <div *ngIf="loginForm.controls.gender.invalid&&loginForm.controls.gender.touched">
+        <span>Gender is required!</span>
+      </div>
+    <br>
+    <br>
+    <textarea class="form-control" placeholder="Address" formControlName="address"></textarea>
+    <div *ngIf="loginForm.controls.address.invalid && loginForm.controls.address.touched">
+      <span>Address is required!</span>
+    </div>
+    <br>
+    <label class="form-label">Select your favorite color:</label><br>
+    <select class="form-select" aria-label="Default select example" formControlName="color">
+      <option value="red">Red</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+    </select>
+    <br>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Default checkbox
+      </label>
+    </div>
+    <br>
+    <button class="btn btn-primary" type="submit" [disabled]="loginForm.invalid">Submit</button>
+
+  </form>
+  <br>
+</div>

@@ -1,0 +1,40 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <!-- <th scope="col">Id</th> -->
+      <th scope="col">Name</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone No</th>
+      <th scope="col">Class</th>
+      <th scope="col">DOB</th>
+      <th scope="col">Update</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+
+  <tbody>
+
+    <tr *ngFor="let form of forms; let i = index;">
+      <th scope="row">{{i+1}}</th>
+      <!-- <td>{{form.id}}</td> -->
+      <td>{{form.name}}</td>
+      <td>{{form.address}}</td>
+      <td>{{form.phoneNo}}</td>
+      <td>{{form.classId}}</td>
+      <td>{{form.dob | date: 'dd/mm/yyyy hh:mm a'}}</td>
+      <td>
+        <a data-bs-toggle="modal" style="cursor: pointer;" data-bs-target="#updateModal" (click)="passForm(form)">
+          <img src="../../../assets/pen.png" alt="">
+        </a>
+      </td>
+      <td>
+        <a href="" (click)="deleteForm(form.id)">
+          <img src="../../../assets/trash.png" alt="">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<app-modal [PData]="selectedForm"></app-modal>

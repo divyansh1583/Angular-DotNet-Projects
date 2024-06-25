@@ -1,0 +1,53 @@
+<div class="modal fade" id="updateModal" tabindex="-1" role="dialog" aria-labelledby="updateModalLabel"
+  aria-hidden="true">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="updateModalLabel">Update Form</h5>
+
+        
+      </div>
+      <div class="modal-body">
+        <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+          <h6 class="modal-title">ID : {{PData?.id}}</h6>
+          <br>
+          <label >Name</label>
+          <input type="text" class="form-control" formControlName="name" >
+          <div *ngIf="loginForm.controls.name.invalid && loginForm.controls.name.touched">
+            <span>Name is required!</span>
+          </div>
+          <br>
+          <label >Address</label>
+          <textarea class="form-control"  formControlName="address" ></textarea>
+          <div *ngIf="loginForm.controls.address.invalid && loginForm.controls.address.touched">
+            <span>Address is required!</span>
+          </div>
+          <br>
+          <label >Phone No</label>
+          <input type="text" class="form-control"  formControlName="phoneNo" >
+          <div *ngIf="loginForm.controls.phoneNo.invalid && loginForm.controls.phoneNo.touched">
+            <span>Phone No is required!</span>
+          </div>
+          <br>
+          <label for="classId">Class ID</label>
+          <input type="number" class="form-control" formControlName="classId" >
+          <div *ngIf="loginForm.controls.classId.invalid && loginForm.controls.classId.touched">
+            <span>Class is required!</span>
+          </div>
+          <br>
+          <label for="myDate">DOB</label>
+          <input type="date" id="myDate" class="form-control" placeholder="DOB" formControlName="dob" [value]="PData?.dob | date : 'yyyy-MM-dd'" >
+          <div *ngIf="loginForm.controls.dob.invalid && loginForm.controls.dob.touched">
+            <span>DOB is required!</span>
+          </div>
+
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary"  (click)="onSubmit()">Save changes</button>
+      </div>
+
+    </div>
+  </div>
+</div>

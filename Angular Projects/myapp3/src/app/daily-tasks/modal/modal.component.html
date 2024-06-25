@@ -1,0 +1,43 @@
+<div class="container my-5">
+    <div class="text-center">
+      <!-- Button to open modal -->
+      <button onclick="openModal()" class="btn btn-primary">Open Table in Modal</button>
+    </div>
+  
+    <!-- The modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h2>Product Table</h2>
+        <table class="table table-bordered table-striped">
+          <tr *ngFor="let product of products; index as i">
+            <td>{{ product.name }}</td>
+            <td><button class="btn btn-primary" (click)="editModeOn(i)">Edit</button></td>
+            <td><button class="btn btn-danger mx-2" (click)="delete(i)">Delete</button></td>
+          </tr>
+        </table>
+        <button type="button" class="btn btn-secondary" onclick="closeModal()">Close</button>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    // Function to open the modal
+    function openModal() {
+      document.getElementById("myModal").style.display = "block";
+    }
+  
+    // Function to close the modal
+    function closeModal() {
+      document.getElementById("myModal").style.display = "none";
+    }
+  
+    // Close the modal when clicking outside of it
+    window.onclick = function(event) {
+      var modal = document.getElementById("myModal");
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+  

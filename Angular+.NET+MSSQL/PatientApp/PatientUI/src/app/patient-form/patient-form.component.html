@@ -1,0 +1,82 @@
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-5">
+            <div class="card">
+                <div class="card-body">
+                    <form (ngSubmit)="onSubmit()" #patientForm="ngForm">
+
+                        <div class="form-group">
+                            <label for="firstname">First Name<span class="text-danger">*</span></label>
+                            <input type="text" id="firstname" required minlength="2" class="form-control"
+                                [(ngModel)]="patient.firstname" name="firstname" #firstname="ngModel"
+                                placeholder="Enter first name" >
+                            <div *ngIf="firstname.invalid && firstname.touched" class="text-danger">
+                                <div *ngIf="firstname.errors?.['required']">First Name is required</div>
+                                <div *ngIf="firstname.errors?.['minlength']">First Name must be at least 2 characters long</div>
+                                <div *ngIf="firstname.errors?.['pattern']">Spaces not allowed.</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name<span class="text-danger">*</span></label>
+                            <input type="text" id="lastname" required minlength="2" class="form-control"
+                                [(ngModel)]="patient.lastname" name="lastname" #lastname="ngModel"
+                                placeholder="Enter last name" >
+                            <div *ngIf="lastname.invalid && lastname.touched" class="text-danger">
+                                <div *ngIf="lastname.errors?.['required']">Last Name is required</div>
+                                <div *ngIf="lastname.errors?.['minlength']">Last Name must be at least 2 characters long
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="gender">Gender<span class="text-danger">*</span></label>
+                            <select id="gender" required class="form-control" [(ngModel)]="patient.gender" name="gender"
+                                #gender style="appearance:menulist;">
+                                <option [value]="Gender.Male">Male</option>
+                                <option [value]="Gender.Female">Female</option>
+                                <option [value]="Gender.Other">Other</option>
+                            </select>
+                            <div *ngIf="gender.oninvalid" class="text-danger">Gender is required</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="dob">Date of Birth<span class="text-danger">*</span></label>
+                            <input type="date" id="dob" [max]="getToday()" required class="form-control"
+                                [(ngModel)]="patient.dob" name="dob" #dob="ngModel" placeholder="Select date of birth" (keydown)=false>
+                            <div *ngIf="dob.invalid && dob.touched" class="text-danger">Date of Birth is required</div>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number<span class="text-danger">*</span></label>
+                            <input type="text" id="phone" required class="form-control" [(ngModel)]="patient.phoneNo"
+                                name="phoneNo" #phone="ngModel" placeholder="Enter phone number" mask="0000000000">
+                            <div *ngIf="phone.invalid && phone.touched" class="text-danger">
+                                <div *ngIf="phone.errors?.['required']">Phone Number is required</div>
+                                <div *ngIf="phone.errors?.['pattern']">Phone Number must be 10 digits long</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address<span class="text-danger">*</span></label>
+                            <textarea id="address" required minlength="5" maxlength="100" class="form-control"
+                                [(ngModel)]="patient.address" name="address" #address="ngModel"
+                                placeholder="Enter address"></textarea>
+                            <div *ngIf="address.invalid && address.touched" class="text-danger" pattern="[a-zA-Z]">
+                                <div *ngIf="address.errors?.['required']">Address is required</div>
+                                <div *ngIf="address.errors?.['minlength']">Address must be at least 5 characters long</div>
+                                <div *ngIf="address.errors?.['maxlength']">Address cannot exceed 100 characters (approximately 100 words)</div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="file">Choose File<span class="text-danger">*</span></label><br>
+                            <input type="file" class="file-input" (change)="onChange($event)" #fileUpload />
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" [disabled]="!patientForm.form.valid"
+                                class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<p>{{patient | json}}</p>

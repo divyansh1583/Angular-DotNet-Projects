@@ -1,0 +1,57 @@
+<div class="container">
+
+  <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+
+    <input type="text" class="form-control" placeholder="First Name" formControlName="firstname">
+    <div *ngIf="loginForm.controls.firstname.invalid && loginForm.controls.firstname.touched">
+      <span>First Name is required!</span>
+    </div>
+    <br>
+    <input type="text" class="form-control" placeholder="Last Name" formControlName="lastname">
+    <br>
+    <label class="form-label">What is your age?</label><br>
+    <select class="form-select" aria-label="Default select example" formControlName="isAdult">
+      <option [ngValue]="false">Below 18</option>
+      <option [ngValue]="true">Above 18</option>
+    </select>
+    <br>
+
+    <div *ngIf="loginForm.controls.isAdult.value">
+      <input type="number" class="form-control" placeholder="Age" formControlName="age">
+      <div *ngIf="loginForm.controls.age.invalid && loginForm.controls.age.touched">
+        <span>Age is required!</span>
+      </div>
+    </div>
+    <br>
+    <label class="form-label">Gender</label>
+    <br>
+    <input type="radio" class="form-check-input me-1" formControlName="gender" value="male"> <label
+      class="form-check-label"> Male </label><br>
+    <input type="radio" class="form-check-input me-1" formControlName="gender" value="female"> <label
+      class="form-check-label">Female</label>
+    <div *ngIf="loginForm.controls.gender.invalid">
+      <span>Gender is required!</span>
+    </div>
+    <br>
+    <label class="form-label">Address</label>
+    <textarea class="form-control" placeholder="Address" formControlName="address"></textarea>
+    <div *ngIf="loginForm.controls.address.invalid && loginForm.controls.address.touched">
+      <span>Address is required!</span>
+    </div>
+
+    <br>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+      <label class="form-check-label" for="flexCheckDefault">
+        Default checkbox
+      </label>
+    </div>
+    <br>
+    <button class="btn btn-primary" type="submit" [disabled]="loginForm.invalid">Submit</button>
+
+  </form>
+  <br>
+  <!-- <router-outlet></router-outlet> -->
+
+</div>

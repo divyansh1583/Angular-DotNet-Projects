@@ -1,0 +1,110 @@
+<div class="container col-4 justify-content-center p-3">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+    <!-- input-text -->
+    <div class="form-group">
+    <label for="inputText1">Name</label>
+    <input type="text" class="form-control" id="inputText1" placeholder="Enter Name" formControlName="name">
+    <div class="text-danger" *ngIf="name?.invalid && (name?.dirty || name?.touched)">
+    <span *ngIf="name?.errors?.['required']">Name is required!</span>
+    </div>
+    </div>
+    <!-- input-number -->
+    <div class="form-group">
+    <label for="inputNumber1">Age</label>
+    <input type="number" class="form-control" id="inputNumber1" placeholder="Enter age" formControlName="age">
+    <div class="text-danger" *ngIf="age?.invalid && (age?.dirty || age?.touched)">
+    <span *ngIf="age?.errors?.['required']">Age is required!</span>
+    <span *ngIf="age?.errors?.['min']">Age must be at least 18!</span>
+    
+    
+    <span *ngIf="age?.errors?.['max']">Age cannot exceed 100!</span>
+    </div>
+    </div>
+    <!-- input-radio -->
+    <label class="form-label">Gender</label>
+    <div class="form-check mb-3">
+    <input type="radio" class="form-check-input" id="radio1" formControlName="gender" value="male">
+    <label class="form-check-label" for="radio1">Male</label><br>
+    <input type="radio" class="form-check-input" formControlName="gender" value="female">
+    <label class="form-check-label">Female</label>
+    <div class="text-danger" *ngIf="gender?.invalid && (gender?.dirty || gender?.touched)">
+    <span *ngIf="gender?.errors?.['required']">Gender is required!</span>
+    </div>
+    </div>
+    <!-- input-email -->
+    <div class="form-group">
+    <label for="inputEmail1">Email address</label>
+    <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Enter email" formControlName="email">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    <div class="text-danger" *ngIf="email?.invalid && (email?.dirty || email?.touched)">
+    
+    
+    <span *ngIf="email?.errors?.['required']">Email is required!</span>
+    
+    
+    <span *ngIf="email?.errors?.['email']">Invalid email format!</span>
+    </div>
+    </div>
+    <!-- input-password -->
+    <div class="form-group">
+    <label for="inputPassword1">Password</label>
+    <input type="password" class="form-control" id="inputPassword1" placeholder="Password" formControlName="password">
+    <div class="text-danger" *ngIf="password?.invalid && (password?.dirty || password?.touched)">
+    <span *ngIf="password?.errors?.['required']">Password is required!</span>
+    <span *ngIf="password?.errors?.['minlength']">Password must be at least 8 characters long!</span>
+    </div>
+    </div>
+    <!-- select-single -->
+    <div class="form-group">
+    <label for="formControlSelect1">Select</label>
+    <select class="form-control" id="formControlSelect1" formControlName="selectSingle">
+    <option value="">Select an option</option>
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    </select>
+    <div class="text-danger" *ngIf="selectSingle?.invalid && (selectSingle?.dirty || selectSingle?.touched)">
+    <span *ngIf="selectSingle?.errors?.['required']">This field is required!</span>
+    </div>
+    </div>
+    <!-- select-multiple -->
+    <div class="form-group">
+    <label for="formControlSelect2">Multiple Select</label>
+    <select multiple class="form-control" id="formControlSelect2" formControlName="selectMultiple">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    </select>
+    <div class="text-danger" *ngIf="selectMultiple?.invalid && (selectMultiple?.dirty || selectMultiple?.touched)">
+    <span *ngIf="selectMultiple?.errors?.['required']">At least one option must be selected!</span>
+    </div>
+    </div>
+    <!-- textarea -->
+    <div class="form-group">
+    <label for="formControlTextarea1">Textarea</label>
+    <textarea class="form-control" id="formControlTextarea1" rows="3" formControlName="textarea"></textarea>
+    <div class="text-danger" *ngIf="textarea?.invalid && (textarea?.dirty || textarea?.touched)">
+    
+    
+    <span *ngIf="textarea?.errors?.['required']">This field is required!</span>
+    </div>
+    </div>
+    <!-- input-file -->
+    <div class="form-group">
+    <label for="formControlFile1">File Input</label><br>
+    <input type="file" class="form-control-file mt-1" id="formControlFile1" formControlName="fileInput">
+    </div>
+    <!-- input-checkbox -->
+    <div class="form-check mb-3">
+    <input type="checkbox" class="form-check-input mr-3" id="check1" formControlName="checkbox">
+    <label class="form-check-label" for="check1">Check me out</label>
+    
+    
+    <div class="text-danger" *ngIf="checkbox?.invalid && (checkbox?.dirty || checkbox?.touched)">
+    <span *ngIf="checkbox?.errors?.['required']">You must accept the terms!</span>
+    </div>
+    </div>
+    <button type="submit" class="btn btn-primary" [disabled]="registerForm.invalid">Submit</button>
+    </form>
+    </div>
+    <pre>{{ this.| json }}</pre>

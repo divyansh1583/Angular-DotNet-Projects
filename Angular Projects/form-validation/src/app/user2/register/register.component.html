@@ -1,0 +1,14 @@
+<div style="text-align: center;">
+    <form [formGroup]="registerForm" (ngSubmit)="onSumbit()">
+
+        <input type="number" formControlName="id" placeholder="ID">
+        <br>
+        <input type="text" formControlName="name" placeholder="Name">
+        <br>
+        <input type="number" formControlName="salary" placeholder="Salary">
+        <br>
+        <button type="submit">Sumbit</button>
+    </form>
+</div>
+
+

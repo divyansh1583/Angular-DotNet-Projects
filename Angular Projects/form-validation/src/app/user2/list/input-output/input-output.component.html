@@ -1,0 +1,23 @@
+<p>input-output works!</p>
+<table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">Salary</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of PData;let i = index">
+            <th scope="row">{{i+1}}</th>
+            <td>{{item.id}}</td>
+            <td>{{item.name}}</td>
+            <td>{{item.salary}}</td>
+           
+        </tr>
+    </tbody>
+</table>
+<!-- <input type="text" #cvalue (keyup)="onEmit(cvalue.value)"> -->
+<input type="text" #cvalue >
+<button type="submit" (click)="onEmit(cvalue.value)">Submit</button>

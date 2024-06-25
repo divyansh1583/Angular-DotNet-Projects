@@ -1,0 +1,14 @@
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\Assesement-c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\Assesement-c#.AssemblyInfoInputs.cache
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\Assesement-c#.AssemblyInfo.cs
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\Assesement-c#.csproj.CoreCompileInputs.cache
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\bin\Debug\net8.0\Assesement-c#.exe
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\bin\Debug\net8.0\Assesement-c#.deps.json
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\bin\Debug\net8.0\Assesement-c#.runtimeconfig.json
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\bin\Debug\net8.0\Assesement-c#.dll
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\bin\Debug\net8.0\Assesement-c#.pdb
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\Assesement-c#.dll
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\refint\Assesement-c#.dll
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\Assesement-c#.pdb
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\Assesement-c#.genruntimeconfig.cache
+C:\Users\divyansh.chauhan\source\repos\Assesement-c#\Assesement-c#\obj\Debug\net8.0\ref\Assesement-c#.dll

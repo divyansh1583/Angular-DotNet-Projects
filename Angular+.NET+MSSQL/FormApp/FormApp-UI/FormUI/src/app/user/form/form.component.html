@@ -1,0 +1,42 @@
+<div class="container">
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+      <label for="id">ID</label>
+      <input type="text" class="form-control" id="id" placeholder="ID" formControlName="id">
+      <div *ngIf="loginForm.controls.name.invalid && loginForm.controls.name.touched">
+        <span>ID is required!</span>
+      </div>
+      <br>
+      <label for="name">Name</label>
+      <input type="text" class="form-control" formControlName="name" name="name">
+      <div *ngIf="loginForm.controls.name.invalid && loginForm.controls.name.touched">
+        <span>Name is required!</span>
+      </div>
+      <br>
+      <label for="address">Address</label>
+      <textarea class="form-control" id="address"  formControlName="address"></textarea>
+      <div *ngIf="loginForm.controls.address.invalid && loginForm.controls.address.touched">
+        <span>Address is required!</span>
+      </div>
+      <br>
+      <label for="phoneNo">Phone No</label>
+      <input type="text" class="form-control" id="phoneNo" formControlName="phoneNo" mask="(000) 000-0000" [showMaskTyped]="!true" >
+      <div *ngIf="loginForm.controls.phoneNo.invalid && loginForm.controls.phoneNo.touched">
+        <span>Phone No is required!</span>
+      </div>
+      <br>
+      <label for="classId">Class ID</label>
+      <input type="number" class="form-control" id="classID"  formControlName="ClassId" >
+      <div *ngIf="loginForm.controls.classId.invalid && loginForm.controls.classId.touched">
+        <span>Class is required!</span>
+      </div>
+      <br>
+      <label for="dob">DOB</label>
+      <input type="date" class="form-control" id="dob" placeholder="DOB" formControlName="dob">
+      <div *ngIf="loginForm.controls.dob.invalid && loginForm.controls.dob.touched">
+        <span>DOB is required!</span>
+      </div>
+      <br>
+      <button class="btn btn-primary" type="submit" [disabled]="loginForm.invalid">Submit</button>
+    </form>
+    <br>
+  </div>

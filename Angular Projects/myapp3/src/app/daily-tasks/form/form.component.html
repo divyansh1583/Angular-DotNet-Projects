@@ -1,0 +1,66 @@
+<form [formGroup]="loginForm" (ngSubmit)="saveForm()">
+
+  <div>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" formControlName="firstName">
+    <div *ngIf="loginForm.controls.firstName.invalid && loginForm.controls.firstName.touched">
+      <span>First name is required.</span>
+    </div>
+  </div>
+  <div>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" formControlName="lastName">
+  </div>
+  <div>
+    <label for="age">Age:</label>
+    <input type="number" id="age" formControlName="age">
+    <div *ngIf="loginForm.controls.age.invalid && loginForm.controls.age.touched">
+      <span>Age is required.</span>
+      <!-- <span *ngIf="loginForm.controls.age.errors">Age must be at least 2.</span> -->
+    </div>
+  </div>
+  <div>
+    <label>Gender:</label>
+    <div *ngFor="let item of list">
+      <label>
+        <input type="radio" formControlName="gender" value="{{item}}">
+        {{item}}
+      </label>
+    </div>
+    <div *ngIf=" loginForm.controls.gender.invalid&&loginForm.controls.gender.touched">
+      <span>Gender is required.</span>
+    </div>
+  </div>
+  <div>
+    <label for="address">Address:</label>
+    <textarea id="address" formControlName="address"></textarea>
+    <div *ngIf="loginForm.controls.address.invalid && loginForm.controls.address.touched">
+      <!-- <span *ngIf="loginForm.controls.address.errors">Age must be at least 2.</span> -->
+      <!-- <span *ngIf="loginForm.controls.address.errors?.minlength">Address must be at least 2 characters long.</span> -->
+      <span>Address is invalid.</span>
+    </div>
+  </div>
+  <!-- <div>
+    <label for="favoriteSport">Favorite Sport:</label>
+    <select id="favoriteSport" formControlName="favoriteSport" (click)="flashSignal()">
+      <option value="" disabled selected>Select your favorite sport</option>
+      <option value="cricket">Cricket</option>
+      <option value="football">Football</option>
+      <option value="basketball">Basketball</option>
+    </select>
+    <div *ngIf="loginForm.controls.favoriteSport.invalid && loginForm.controls.favoriteSport.touched">
+      <span>Favorite Sport is required.</span>
+    </div>
+  </div>
+  <div style="margin-top:15px" *ngIf="isSelected">
+    <input name="GName" type="text" [value]="selectedsports">
+</div> -->
+  <button [disabled]="loginForm.invalid" type="submit">Submit</button>
+  <br>
+  <br>
+  <button routerLink="/dailytask/result" type="button">Show Result</button>
+</form>
+
+<div class="table-wrapper">
+
+</div>

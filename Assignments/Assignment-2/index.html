@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+        .form-container {
+            border: 1px solid black;
+        }
+
+        .form-label::after {
+            content: ' *';
+            color: red;
+        }
+    </style>
+</head>
+
+<body class="bg-primary-subtle">
+    <div class="container">
+
+
+        <div class="p-4 form-container mt-5">
+            <h4 class="text-center">Powering world-class companies</h4>
+            <form>
+                <div class="row g-3 mt-3">
+                    <div class="col-md-6 mb-3">
+                        <label for="firstname" class="form-label">First Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your first name" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" placeholder="Enter your last name">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="inputEmail4" class="form-label">Business email</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="inputEmail4" class="form-label">Phone number</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="inputEmail4" class="form-label">Job title</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="col-md-12 mb-3">
+                        <label for="inputEmail4" class="form-label">What would you be using Flinks for?"</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="form-group col-md-6 ">
+                            <button type="button" class="btn btn-primary float-end w-100"><p class="mt-auto mb-auto">REQUEST A DEMO</p></button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

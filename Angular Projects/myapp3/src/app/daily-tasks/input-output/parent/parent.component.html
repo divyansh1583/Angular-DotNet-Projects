@@ -1,0 +1,5 @@
+<input type="text" #pvalue (keyup)="0">
+<!-- <button (click)="onClick(pvalue.value)"></button> -->
+<p>Value from child = {{CData}}</p>
+<hr>
+<app-child [PData]="pvalue.value" (childEvent)="CData=$event"></app-child>
