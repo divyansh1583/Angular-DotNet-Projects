@@ -53,9 +53,9 @@ export class RegisterComponent {
     if (this.file) {
       this.formData.append('file', this.file, this.file.name);
     }
-    formData.append('checkbox', this.registerForm.get('checkbox')?.value.toString()!);
+    this.formData.append('checkbox', this.registerForm.get('checkbox')?.value.toString()!);
 
-    this.everythingFormService.addUser(formData).subscribe({
+    this.everythingFormService.addUser(this.formData).subscribe({
       next(response) { console.log(response); },
       error(err) { console.error('Observable emitted an error: ' + err); },
       complete() { console.log('Task completed'); }
