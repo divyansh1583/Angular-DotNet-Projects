@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{1F00F78A-056C-4862-A5BE-D9D724EE10F1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{9659E83D-945F-42D2-BB7B-877E1B93B43D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1D137D9D-40CC-4A4A-9A26-8AFF33890A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HRLeaveManagement.Domain", "HRLeaveManagement.Domain\HRLeaveManagement.Domain.csproj", "{146E46EC-CA23-460E-A101-04AC6F2797FD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{146E46EC-CA23-460E-A101-04AC6F2797FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{146E46EC-CA23-460E-A101-04AC6F2797FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{146E46EC-CA23-460E-A101-04AC6F2797FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{146E46EC-CA23-460E-A101-04AC6F2797FD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{146E46EC-CA23-460E-A101-04AC6F2797FD} = {1D137D9D-40CC-4A4A-9A26-8AFF33890A30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {28055DD0-DF92-4A31-9B0B-5D56492856BF}
+	EndGlobalSection
+EndGlobal

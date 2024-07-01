@@ -18,14 +18,14 @@ namespace PatientAPI.Controllers
         }
 
 
-        //[HttpGet]
-        //[Route("/get")]
-        //public async Task<IActionResult> GetPatientDetailsAsync()
-        //{
-        //    var patientDetails = await _patientDbContext.DC_patient.ToListAsync();
+        [HttpGet]
+        [Route("/get")]
+        public async Task<IActionResult> GetPatientDetailsAsync()
+        {
+            var patientDetails = await _patientDbContext.DC_patient.ToListAsync();
 
-        //    return Ok(patientDetails);
-        //}
+            return Ok(patientDetails);
+        }
 
 
         [HttpPost]
