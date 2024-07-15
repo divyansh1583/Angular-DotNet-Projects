@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnatomyMapperAPI.Presentation", "AnatomyMapperAPI.Presentation\AnatomyMapperAPI.Presentation.csproj", "{BCE3682A-0930-4A09-ACAD-1A9D74D5D3F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnatomyMapperAPI.Business", "AnatomyMapperAPI.Business\AnatomyMapperAPI.Business.csproj", "{059817FB-C625-44F2-822D-A6EC0A3DF187}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnatomyMapperAPI.Data", "AnatomyMapperAPI.Data\AnatomyMapperAPI.Data.csproj", "{9741EB2F-B2F8-4BE2-ACD7-60B1E2AC2F50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCE3682A-0930-4A09-ACAD-1A9D74D5D3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE3682A-0930-4A09-ACAD-1A9D74D5D3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE3682A-0930-4A09-ACAD-1A9D74D5D3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE3682A-0930-4A09-ACAD-1A9D74D5D3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059817FB-C625-44F2-822D-A6EC0A3DF187}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059817FB-C625-44F2-822D-A6EC0A3DF187}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059817FB-C625-44F2-822D-A6EC0A3DF187}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059817FB-C625-44F2-822D-A6EC0A3DF187}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9741EB2F-B2F8-4BE2-ACD7-60B1E2AC2F50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9741EB2F-B2F8-4BE2-ACD7-60B1E2AC2F50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9741EB2F-B2F8-4BE2-ACD7-60B1E2AC2F50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9741EB2F-B2F8-4BE2-ACD7-60B1E2AC2F50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA7E06EE-C933-4C5B-A38A-AB5D9BC497B1}
+	EndGlobalSection
+EndGlobal

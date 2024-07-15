@@ -1,0 +1,16 @@
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.Business.deps.json
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.Business.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.Business.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.Data.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.Data.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.csproj.AssemblyReference.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.AssemblyInfoInputs.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.AssemblyInfo.cs
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.csproj.CoreCompileInputs.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.sourcelink.json
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyM.F6029042.Up2Date
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\refint\AnatomyMapperAPI.Business.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.Business.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\ref\AnatomyMapperAPI.Business.dll

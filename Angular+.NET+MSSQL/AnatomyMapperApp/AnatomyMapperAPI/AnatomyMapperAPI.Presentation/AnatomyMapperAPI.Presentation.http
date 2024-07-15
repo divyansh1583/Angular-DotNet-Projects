@@ -1,0 +1,6 @@
+@AnatomyMapperAPI.Presentation_HostAddress = http://localhost:5182
+
+GET {{AnatomyMapperAPI.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
