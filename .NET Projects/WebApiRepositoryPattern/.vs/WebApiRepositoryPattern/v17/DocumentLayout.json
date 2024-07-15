@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiRepositoryPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1F7D1C89-E02F-4C4C-A43C-74ACC86ACA28}|WebApi.Application\\WebApi.Application.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\.net projects\\webapirepositorypattern\\webapi.application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F7D1C89-E02F-4C4C-A43C-74ACC86ACA28}|WebApi.Application\\WebApi.Application.csproj|solutionrelative:webapi.application\\interfaces\\services\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiRepositoryPattern\\WebApi.Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeDocumentMoniker": "WebApi.Application\\Interfaces\\Services\\IProductService.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiRepositoryPattern\\WebApi.Application\\Interfaces\\Services\\IProductService.cs",
+              "RelativeToolTip": "WebApi.Application\\Interfaces\\Services\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T12:08:46.021Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

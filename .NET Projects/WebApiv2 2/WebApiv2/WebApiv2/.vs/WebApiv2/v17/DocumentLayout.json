@@ -1,0 +1,120 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC64A2AA-9B3F-4A84-BCA6-509CB1F38935}|WebApiv2.Application\\WebApiv2.Application.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\.net projects\\webapiv2 2\\webapiv2\\webapiv2\\webapiv2.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC64A2AA-9B3F-4A84-BCA6-509CB1F38935}|WebApiv2.Application\\WebApiv2.Application.csproj|solutionrelative:webapiv2.application\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC64A2AA-9B3F-4A84-BCA6-509CB1F38935}|WebApiv2.Application\\WebApiv2.Application.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\.net projects\\webapiv2 2\\webapiv2\\webapiv2\\webapiv2.application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC64A2AA-9B3F-4A84-BCA6-509CB1F38935}|WebApiv2.Application\\WebApiv2.Application.csproj|solutionrelative:webapiv2.application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CEF899-9494-4CAF-941E-4CF2262F1D26}|WebApiv2.Infrastructure\\WebApiv2.Infrastructure.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\.net projects\\webapiv2 2\\webapiv2\\webapiv2\\webapiv2.infrastructure\\databasecontext\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CEF899-9494-4CAF-941E-4CF2262F1D26}|WebApiv2.Infrastructure\\WebApiv2.Infrastructure.csproj|solutionrelative:webapiv2.infrastructure\\databasecontext\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31BC51A1-4129-4D8A-8098-099648985587}|WebApiv2\\WebApiv2.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\.net projects\\webapiv2 2\\webapiv2\\webapiv2\\webapiv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31BC51A1-4129-4D8A-8098-099648985587}|WebApiv2\\WebApiv2.csproj|solutionrelative:webapiv2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CEF899-9494-4CAF-941E-4CF2262F1D26}|WebApiv2.Infrastructure\\WebApiv2.Infrastructure.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\.net projects\\webapiv2 2\\webapiv2\\webapiv2\\webapiv2.infrastructure\\implementation\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CEF899-9494-4CAF-941E-4CF2262F1D26}|WebApiv2.Infrastructure\\WebApiv2.Infrastructure.csproj|solutionrelative:webapiv2.infrastructure\\implementation\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44CEF899-9494-4CAF-941E-4CF2262F1D26}|WebApiv2.Infrastructure\\WebApiv2.Infrastructure.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\.net projects\\webapiv2 2\\webapiv2\\webapiv2\\webapiv2.infrastructure\\implementation\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44CEF899-9494-4CAF-941E-4CF2262F1D26}|WebApiv2.Infrastructure\\WebApiv2.Infrastructure.csproj|solutionrelative:webapiv2.infrastructure\\implementation\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "WebApiv2.Application\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "WebApiv2.Application\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T10:01:04.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Infrastructure\\Implementation\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "WebApiv2.Infrastructure\\Implementation\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Infrastructure\\Implementation\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "WebApiv2.Infrastructure\\Implementation\\Repositories\\GenericRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:22:58.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebApiv2.Application\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Application\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "WebApiv2.Application\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:17:42.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Infrastructure\\DatabaseContext\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "WebApiv2.Infrastructure\\DatabaseContext\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Infrastructure\\DatabaseContext\\UnitOfWork.cs",
+              "RelativeToolTip": "WebApiv2.Infrastructure\\DatabaseContext\\UnitOfWork.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:17:12.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "WebApiv2.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "RelativeToolTip": "WebApiv2.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:13:34.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2\\Program.cs",
+              "RelativeDocumentMoniker": "WebApiv2\\Program.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\.NET Projects\\WebApiv2 2\\WebApiv2\\WebApiv2\\WebApiv2\\Program.cs",
+              "RelativeToolTip": "WebApiv2\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvxUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T09:13:23.647Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\bin\Debug\net8.0\WebApi.Domain.deps.json
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\bin\Debug\net8.0\WebApi.Domain.dll
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\bin\Debug\net8.0\WebApi.Domain.pdb
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.AssemblyInfoInputs.cache
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.AssemblyInfo.cs
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.csproj.CoreCompileInputs.cache
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.dll
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\refint\WebApi.Domain.dll
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\WebApi.Domain.pdb
+D:\Work\WebApiRepositoryPattern\WebApi.Domain\obj\Debug\net8.0\ref\WebApi.Domain.dll

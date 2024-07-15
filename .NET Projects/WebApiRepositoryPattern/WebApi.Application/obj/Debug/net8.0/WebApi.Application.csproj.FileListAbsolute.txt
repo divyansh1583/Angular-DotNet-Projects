@@ -1,0 +1,15 @@
+D:\Work\WebApiRepositoryPattern\WebApi.Application\bin\Debug\net8.0\WebApi.Application.deps.json
+D:\Work\WebApiRepositoryPattern\WebApi.Application\bin\Debug\net8.0\WebApi.Application.dll
+D:\Work\WebApiRepositoryPattern\WebApi.Application\bin\Debug\net8.0\WebApi.Application.pdb
+D:\Work\WebApiRepositoryPattern\WebApi.Application\bin\Debug\net8.0\WebApi.Domain.dll
+D:\Work\WebApiRepositoryPattern\WebApi.Application\bin\Debug\net8.0\WebApi.Domain.pdb
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.Application.csproj.AssemblyReference.cache
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.Application.AssemblyInfoInputs.cache
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.Application.AssemblyInfo.cs
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.Application.csproj.CoreCompileInputs.cache
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.A.C504E219.Up2Date
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.Application.dll
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\refint\WebApi.Application.dll
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\WebApi.Application.pdb
+D:\Work\WebApiRepositoryPattern\WebApi.Application\obj\Debug\net8.0\ref\WebApi.Application.dll
