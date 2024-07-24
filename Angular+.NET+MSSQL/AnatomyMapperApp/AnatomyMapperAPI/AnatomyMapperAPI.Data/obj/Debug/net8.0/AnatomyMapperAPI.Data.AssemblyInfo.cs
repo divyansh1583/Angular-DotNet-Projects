@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AnatomyMapperAPI.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14a046342be1ce4171d4976bb77cf780a27b9ca6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+008de9507852ecadb2462f1a05efa5dc958d602f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AnatomyMapperAPI.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AnatomyMapperAPI.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

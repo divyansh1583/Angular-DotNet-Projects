@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35004.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnatomyMapperAPI.Presentation", "AnatomyMapperAPI.Presentation\AnatomyMapperAPI.Presentation.csproj", "{BCE3682A-0930-4A09-ACAD-1A9D74D5D3F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnatomyMapperAPI", "AnatomyMapperAPI.Presentation\AnatomyMapperAPI.csproj", "{BCE3682A-0930-4A09-ACAD-1A9D74D5D3F7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnatomyMapperAPI.Business", "AnatomyMapperAPI.Business\AnatomyMapperAPI.Business.csproj", "{059817FB-C625-44F2-822D-A6EC0A3DF187}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnatomyMapperAPI.BAL", "AnatomyMapperAPI.Business\AnatomyMapperAPI.BAL.csproj", "{059817FB-C625-44F2-822D-A6EC0A3DF187}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnatomyMapperAPI.Data", "AnatomyMapperAPI.Data\AnatomyMapperAPI.Data.csproj", "{9741EB2F-B2F8-4BE2-ACD7-60B1E2AC2F50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AnatomyMapperAPI.DAL", "AnatomyMapperAPI.Data\AnatomyMapperAPI.DAL.csproj", "{9741EB2F-B2F8-4BE2-ACD7-60B1E2AC2F50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

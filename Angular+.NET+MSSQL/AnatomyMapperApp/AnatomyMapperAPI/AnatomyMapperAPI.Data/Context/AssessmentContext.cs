@@ -14,7 +14,7 @@ namespace AnatomyMapperAPI.Data.Context
         {
         }
 
-        public DbSet<Assessment> Assessments { get; set; }
-        public DbSet<BodyPartMapping> BodyPartMappings { get; set; }
+        public DbSet<Assessment> DC_Assessments { get; set; }
+        public DbSet<BodyPartMapping> DC_BodyPartMappings { get; set; }
     }
 }

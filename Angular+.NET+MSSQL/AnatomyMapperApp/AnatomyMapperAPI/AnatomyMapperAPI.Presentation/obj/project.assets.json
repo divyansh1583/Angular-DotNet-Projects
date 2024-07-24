@@ -1074,20 +1074,20 @@
           }
         }
       },
-      "AnatomyMapperAPI.Business/1.0.0": {
+      "AnatomyMapperAPI.BAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "AnatomyMapperAPI.Data": "1.0.0"
+          "AnatomyMapperAPI.DAL": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/AnatomyMapperAPI.Business.dll": {}
+          "bin/placeholder/AnatomyMapperAPI.BAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AnatomyMapperAPI.Business.dll": {}
+          "bin/placeholder/AnatomyMapperAPI.BAL.dll": {}
         }
       },
-      "AnatomyMapperAPI.Data/1.0.0": {
+      "AnatomyMapperAPI.DAL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
@@ -1095,10 +1095,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.7"
         },
         "compile": {
-          "bin/placeholder/AnatomyMapperAPI.Data.dll": {}
+          "bin/placeholder/AnatomyMapperAPI.DAL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/AnatomyMapperAPI.Data.dll": {}
+          "bin/placeholder/AnatomyMapperAPI.DAL.dll": {}
         }
       }
     }
@@ -3184,21 +3184,21 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "AnatomyMapperAPI.Business/1.0.0": {
+    "AnatomyMapperAPI.BAL/1.0.0": {
       "type": "project",
-      "path": "../AnatomyMapperAPI.Business/AnatomyMapperAPI.Business.csproj",
-      "msbuildProject": "../AnatomyMapperAPI.Business/AnatomyMapperAPI.Business.csproj"
+      "path": "../AnatomyMapperAPI.Business/AnatomyMapperAPI.BAL.csproj",
+      "msbuildProject": "../AnatomyMapperAPI.Business/AnatomyMapperAPI.BAL.csproj"
     },
-    "AnatomyMapperAPI.Data/1.0.0": {
+    "AnatomyMapperAPI.DAL/1.0.0": {
       "type": "project",
-      "path": "../AnatomyMapperAPI.Data/AnatomyMapperAPI.Data.csproj",
-      "msbuildProject": "../AnatomyMapperAPI.Data/AnatomyMapperAPI.Data.csproj"
+      "path": "../AnatomyMapperAPI.Data/AnatomyMapperAPI.DAL.csproj",
+      "msbuildProject": "../AnatomyMapperAPI.Data/AnatomyMapperAPI.DAL.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "AnatomyMapperAPI.Business >= 1.0.0",
-      "AnatomyMapperAPI.Data >= 1.0.0",
+      "AnatomyMapperAPI.BAL >= 1.0.0",
+      "AnatomyMapperAPI.DAL >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.7",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
@@ -3210,9 +3210,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Presentation\\AnatomyMapperAPI.Presentation.csproj",
-      "projectName": "AnatomyMapperAPI.Presentation",
-      "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Presentation\\AnatomyMapperAPI.Presentation.csproj",
+      "projectUniqueName": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Presentation\\AnatomyMapperAPI.csproj",
+      "projectName": "AnatomyMapperAPI",
+      "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Presentation\\AnatomyMapperAPI.csproj",
       "packagesPath": "C:\\Users\\divyansh.chauhan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Presentation\\obj\\",
       "projectStyle": "PackageReference",
@@ -3236,11 +3236,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Business\\AnatomyMapperAPI.Business.csproj": {
-              "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Business\\AnatomyMapperAPI.Business.csproj"
+            "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Business\\AnatomyMapperAPI.BAL.csproj": {
+              "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Business\\AnatomyMapperAPI.BAL.csproj"
             },
-            "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.Data.csproj": {
-              "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.Data.csproj"
+            "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.DAL.csproj": {
+              "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.DAL.csproj"
             }
           }
         }

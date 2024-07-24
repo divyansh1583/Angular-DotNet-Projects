@@ -4074,9 +4074,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.Data.csproj",
-      "projectName": "AnatomyMapperAPI.Data",
-      "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.Data.csproj",
+      "projectUniqueName": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.DAL.csproj",
+      "projectName": "AnatomyMapperAPI.DAL",
+      "projectPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\AnatomyMapperAPI.DAL.csproj",
       "packagesPath": "C:\\Users\\divyansh.chauhan\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Angular+.NET+MSSQL\\AnatomyMapperApp\\AnatomyMapperAPI\\AnatomyMapperAPI.Data\\obj\\",
       "projectStyle": "PackageReference",

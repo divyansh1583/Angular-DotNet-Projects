@@ -1,0 +1,16 @@
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.BAL.deps.json
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.BAL.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.BAL.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.DAL.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\bin\Debug\net8.0\AnatomyMapperAPI.DAL.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.csproj.AssemblyReference.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.AssemblyInfoInputs.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.AssemblyInfo.cs
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.csproj.CoreCompileInputs.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.sourcelink.json
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyM.EC3C6B64.Up2Date
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\refint\AnatomyMapperAPI.BAL.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\AnatomyMapperAPI.BAL.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Business\obj\Debug\net8.0\ref\AnatomyMapperAPI.BAL.dll

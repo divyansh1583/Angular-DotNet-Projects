@@ -1,0 +1,15 @@
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\bin\Debug\net8.0\AnatomyMapperAPI.DAL.deps.json
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\bin\Debug\net8.0\AnatomyMapperAPI.DAL.runtimeconfig.json
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\bin\Debug\net8.0\AnatomyMapperAPI.DAL.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\bin\Debug\net8.0\AnatomyMapperAPI.DAL.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.csproj.AssemblyReference.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.AssemblyInfoInputs.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.AssemblyInfo.cs
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.csproj.CoreCompileInputs.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.sourcelink.json
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\refint\AnatomyMapperAPI.DAL.dll
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.pdb
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\AnatomyMapperAPI.DAL.genruntimeconfig.cache
+C:\Users\divyansh.chauhan\Desktop\DC\Angular+.NET+MSSQL\AnatomyMapperApp\AnatomyMapperAPI\AnatomyMapperAPI.Data\obj\Debug\net8.0\ref\AnatomyMapperAPI.DAL.dll
