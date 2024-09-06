@@ -1,0 +1,211 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\queries\\employeequeries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:queries\\employeequeries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\queries\\iemployeequeries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:queries\\iemployeequeries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\commands\\employeecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:commands\\employeecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\commands\\iemployeecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:commands\\iemployeecommands.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\repositories\\employeequeriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:repositories\\employeequeriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\repositories\\iemployeequeriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:repositories\\iemployeequeriesrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\cqrspattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:cqrspattern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\repositories\\iemployeecommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:repositories\\iemployeecommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\repositories\\employeecommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:repositories\\employeecommandsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:dtos\\employeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|c:\\users\\divyansh.chauhan\\desktop\\dc\\practise\\countryopinions\\cqrspattern\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{686CB3F5-7867-4D5B-ACDC-362F1F2EC0D3}|CQRSPattern.csproj|solutionrelative:models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CQRSPattern",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\CQRSPattern.csproj",
+              "RelativeDocumentMoniker": "CQRSPattern.csproj",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\CQRSPattern.csproj",
+              "RelativeToolTip": "CQRSPattern.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-09-05T09:25:16.322Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmployeeCommandsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\IEmployeeCommandsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IEmployeeCommandsRepository.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\IEmployeeCommandsRepository.cs",
+              "RelativeToolTip": "Repositories\\IEmployeeCommandsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:43:37.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EmployeeCommandsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\EmployeeCommandsRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EmployeeCommandsRepository.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\EmployeeCommandsRepository.cs",
+              "RelativeToolTip": "Repositories\\EmployeeCommandsRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:44:38.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEmployeeQueriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\IEmployeeQueriesRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IEmployeeQueriesRepository.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\IEmployeeQueriesRepository.cs",
+              "RelativeToolTip": "Repositories\\IEmployeeQueriesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:47:37.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EmployeeQueriesRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\EmployeeQueriesRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\EmployeeQueriesRepository.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Repositories\\EmployeeQueriesRepository.cs",
+              "RelativeToolTip": "Repositories\\EmployeeQueriesRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:48:19.781Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IEmployeeQueries.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Queries\\IEmployeeQueries.cs",
+              "RelativeDocumentMoniker": "Queries\\IEmployeeQueries.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Queries\\IEmployeeQueries.cs",
+              "RelativeToolTip": "Queries\\IEmployeeQueries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:50:29.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EmployeeQueries.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Queries\\EmployeeQueries.cs",
+              "RelativeDocumentMoniker": "Queries\\EmployeeQueries.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Queries\\EmployeeQueries.cs",
+              "RelativeToolTip": "Queries\\EmployeeQueries.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:50:41.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IEmployeeCommands.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Commands\\IEmployeeCommands.cs",
+              "RelativeDocumentMoniker": "Commands\\IEmployeeCommands.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Commands\\IEmployeeCommands.cs",
+              "RelativeToolTip": "Commands\\IEmployeeCommands.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:50:58.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeCommands.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Commands\\EmployeeCommands.cs",
+              "RelativeDocumentMoniker": "Commands\\EmployeeCommands.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Commands\\EmployeeCommands.cs",
+              "RelativeToolTip": "Commands\\EmployeeCommands.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAswBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:51:29.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EmployeeDTO.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\DTOs\\EmployeeDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\EmployeeDTO.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\DTOs\\EmployeeDTO.cs",
+              "RelativeToolTip": "DTOs\\EmployeeDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:52:17.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\divyansh.chauhan\\Desktop\\DC\\Practise\\CountryOpinions\\CQRSPattern\\Models\\Employee.cs",
+              "RelativeToolTip": "Models\\Employee.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T09:52:46.329Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

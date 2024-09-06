@@ -1,0 +1,17 @@
+Database: 
+Server IP:- 3.131.105.103
+DB Name:- CountryOpinionsDev
+U/P:- CountryOpinions / CountryOpinions 
+
+--------------------------------------------
+Microservices with CQRS: https://medium.com/aspnetrun/microservices-architecture-on-net-3b4865eea03f
+Microservices Project Repo Link: https://github.com/BehzadDara/OnlineShop
+
+-------------------------------------------
+https://ms.stagingsdei.com:4087/index.html: Frontend
+
+https://ms.stagingsdei.com:4085/swagger: Api Gateway
+https://ms.stagingsdei.com:4077/swagger: AuthMS.WebApi
+https://ms.stagingsdei.com:4078/swagger: ContactMS.WebApi
+https://ms.stagingsdei.com:4086/swagger: CountryOpinionMS.WebApi
+https://ms.stagingsdei.com:4079/swagger: OrganisationMS.WebApi
